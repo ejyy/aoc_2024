@@ -19,4 +19,4 @@ with open("day_02_input.txt") as file:
         if report_safe:
             number_safe_reports += 1
 
-print(number_safe_reports)
+print("Part 1:", number_safe_reports)

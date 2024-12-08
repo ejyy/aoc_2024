@@ -53,7 +53,4 @@ while True:
         direction_index = (direction_index + 1) % 4
 
 # Flatten the grid and count occurences of 'X' (+1 for final ^ position)
-output_list = puzzle_grid.flatten().tolist()
-d = {x:output_list.count(x) for x in output_list}
-
-print("Part 1:", d['X'] + 1)
+print("Part 1:", puzzle_grid.flatten().tolist().count("X") + 1)
